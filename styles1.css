@@ -40,7 +40,7 @@ nav ul li {
      padding: 0; 
  } 
 
-main {width:68% ; margin-right: 1rem; float:left;}
+
 
 p {
   color: blue; text-align: initial;
@@ -75,7 +75,7 @@ a.homepage:hover, a.homepage:focus, a.homepage:active {
 background-color: #666;}
 
 
-aside { width:30%;float:left; padding:0rem;}
+
 
 aside h2 {font-size:1rem; color:darkred; }
 
@@ -111,3 +111,9 @@ a:hover {
     color: rgb(252,255,245); 
     text-decoration: underline; 
 } 
+
+
+@media (min-width: 800px){
+  main {width:68% ; margin-right: 1rem; float:left;}
+  aside { width:30%;float:left; padding:0rem;}
+}
