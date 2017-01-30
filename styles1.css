@@ -1,4 +1,8 @@
-main, section, article, aside, footer, header, nav, hgroup { 
+body {
+  margin-top: 70px;
+}
+
+/*main, section, article, aside, footer, header, nav, hgroup { 
     display: block; 
 } 
 
@@ -118,3 +122,4 @@ a:hover {
   aside { width:30%;float:left; padding:0rem;}
 }
 
+*/
